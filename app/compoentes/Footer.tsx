@@ -4,7 +4,7 @@ const Footer = () => {
             <div className="flex text-gray-100 text-sm " >
                 <p>Copyright @2024 <span className="text-sec ">CASATAMULTVISATA.RO</span></p>
                 <div className="grow"></div>
-            <div className="">Made by WebJhon-Studio</div>
+            <div className=" whitespace-nowrap place-self-end">Made by Jhon{"'"}s Web Studio</div>
             </div>
           
         </div>

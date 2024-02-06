@@ -23,22 +23,42 @@ const Sectiune1 = () => {
               className="h-auto w-auto"
             />
           </div>
-          <div className="md:mt-10 space-y-2 text-text tracking-wide ">
+
+          <div className="md:mt-10 space-y-2 my-2 text-text text-md tracking-wide text-center md:text-start">
             {" "}
-            CASATAMULTVISATA EVOLVE BUSINESS S.R.L. S.R.L. este o societate cu
-            capital privat, înfiintata în conformitate cu Legea 31/1990,
-            înmatriculata la Registrul Comertului al Municipiului Cluj-Napoca{" "}
-            <br />
-            <span className="text-sec">
-              Numarul de ordine in Registrul Comestului: J12/3204/2021, Cod Unic
-              de Inregistrare: RO 37638637, sediul social ROMANIA, CLUJ,
-              FLORESTI Str. Eroilor, Nr. 18C, Bl. C4, Sc.1 Ap. 9
+            <span className="text-sec"> 
+              {" "}
+              Bun venit pe pagina noastră de prezentare! În caz dacă suntenţi în
+              căutarea unei firme de constructii prestigioase şi de încredere,
+              aţi nimerit tocmai la locul potrivit <br /><br />
             </span>
-            <br />
-            Obiectul principal de activitate este:{" "}
+            {/* CASATAMULTVISATA EVOLVE BUSINESS S.R.L. S.R.L. este o societate cu
+            capital privat, înfiintata în conformitate cu Legea 31/1990, br
+            înmatriculata la Registrul Comertului al Municipiului Cluj-Napoca{" "} */}
+            Suntem o echipă de profesioniști dedicați să realizăm
+            proiecte in domeniul construcțiilor care să îndeplinească nevoile și visurile
+            clienților noștri. Fie că doriți să construiți o casă nouă sau să
+            renovați o locuință existentă, suntem aici pentru a vă ajuta să
+            transformați visul dumneavoastră în realitate.
+            <br /> <br />
+            <span className="text-sec">
+              {/* Numarul de ordine in Registrul Comestului: J12/3204/2021, Cod Unic
+              de Inregistrare: RO 37638637, sediul social ROMANIA, CLUJ,
+              FLORESTI Str. Eroilor, Nr. 18C, Bl. C4, Sc.1 Ap. 9 */}
+              Cu o vastă experiență în domeniul construcțiilor și cu o echipă
+              bine pregătită, vă garantăm că proiectul dumneavoastră va fi
+              gestionat cu profesionalism și atenție la detalii. Indiferent de
+              dimensiunea sau complexitatea proiectului, ne angajăm să vă oferim
+              soluții personalizate și rezultate de excepție.
+            </span>
+            <br /> <br />
+            {/* Obiectul principal de activitate este:{" "}
             <span className="font-bold">7111</span> Activitati de arhitectura”.
             Echipa C.E.B. are o experienta in realizarea a peste 500 de proiecte
-            structuri diverse: beton armat, otel, zidarie, lemn.
+            structuri diverse: beton armat, otel, zidarie, lemn. */}
+            Contactați-ne pentru a discuta despre proiectul dumneavoastră și
+            pentru a afla cum vă putem ajuta să vă transformați visul în
+            realitate.
           </div>
         </div>
       </div>
@@ -47,10 +67,7 @@ const Sectiune1 = () => {
           <div className="flex flex-col  items-center">
             <h1 className="text-5xl font-bold">
               {" "}
-              <CountUp    duration={4.75}
- start={0} end={30} delay={0}>
-                
-              </CountUp>
+              <CountUp duration={4.75} start={0} end={30} delay={0}></CountUp>
               <span className="text-sec "></span>
             </h1>
             <p className="text-text text-3xl">Ani Experiență</p>{" "}
@@ -58,20 +75,26 @@ const Sectiune1 = () => {
           <div className="flex flex-col items-center">
             <h1 className="text-5xl font-bold flex">
               {" "}
-              <CountUp   duration={4.75}
- start={0} end={1533} delay={0}>
-                
-              </CountUp> <span className="text-sec -translate-y-4">+</span>
+              <CountUp
+                duration={4.75}
+                start={0}
+                end={1533}
+                delay={0}
+              ></CountUp>{" "}
+              <span className="text-sec -translate-y-4">+</span>
             </h1>
             <p className="text-text text-3xl">Proiecte Finalizate</p>{" "}
           </div>
           <div className="flex flex-col items-center">
             <h1 className="text-5xl font-bold flex">
               {" "}
-              <CountUp   duration={4.75}
- start={0} end={124143} delay={0}>
-               
-              </CountUp> <span className="text-sec -translate-y-4">+</span>
+              <CountUp
+                duration={4.75}
+                start={0}
+                end={124143}
+                delay={0}
+              ></CountUp>{" "}
+              <span className="text-sec -translate-y-4">+</span>
             </h1>
             <p className="text-text text-3xl">MP Construiti</p>{" "}
           </div>

@@ -19,12 +19,12 @@ const Sectiune2 = () => {
                   height={100}
                   src="/icons/2-1.png"
                 />
+                
               </div>
               <div className="md:w-2/3 flex flex-col ">
                 <h1 className="border-b-2 mr-2 pb-2 border-text2 text-main md:text-start font-bold text-3xl text-center">Experiență</h1>
                 <p className="mt-2 text-md text-text text-center md:text-start">
-                  În cei 30 de ani de activitate am revitalizat mii de metri de
-                  parchet și am învățat cum să rezolvăm orice problemă poate
+                  În cei 30 de ani de activitate am consturi mii de m<sup>2</sup> și am învățat cum să rezolvăm orice problemă poate
                   apărea.
                 </p>
               </div>
