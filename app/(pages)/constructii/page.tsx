@@ -91,7 +91,7 @@ const Pretur = () => {
             personalitatea și gusturile tale, iar rezultatul final să fie o
             locuință unică și impresionantă.
           </div>
-          <Swiper1 photos={["constructii/piatra/8.jpg","constructii/piatra/10.jpg"]} />{" "}
+          <Swiper1 photos={["constructii/piatra/8.jpg"]} />{" "}
         </div>
       </div>
     </div>

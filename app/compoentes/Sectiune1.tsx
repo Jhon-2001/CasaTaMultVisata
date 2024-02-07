@@ -26,17 +26,18 @@ const Sectiune1 = () => {
 
           <div className="md:mt-10 space-y-2 my-2 text-text text-md tracking-wide text-center md:text-start">
             {" "}
-            <span className="text-sec"> 
+            <span className="text-sec">
               {" "}
               Bun venit pe pagina noastră de prezentare! În caz dacă suntenţi în
               căutarea unei firme de constructii prestigioase şi de încredere,
-              aţi nimerit tocmai la locul potrivit <br /><br />
+              aţi nimerit tocmai la locul potrivit <br />
+              <br />
             </span>
             {/* CASATAMULTVISATA EVOLVE BUSINESS S.R.L. S.R.L. este o societate cu
             capital privat, înfiintata în conformitate cu Legea 31/1990, br
             înmatriculata la Registrul Comertului al Municipiului Cluj-Napoca{" "} */}
-            Suntem o echipă de profesioniști dedicați să realizăm
-            proiecte in domeniul construcțiilor care să îndeplinească nevoile și visurile
+            Suntem o echipă de profesioniști dedicați să realizăm proiecte in
+            domeniul construcțiilor care să îndeplinească nevoile și visurile
             clienților noștri. Fie că doriți să construiți o casă nouă sau să
             renovați o locuință existentă, suntem aici pentru a vă ajuta să
             transformați visul dumneavoastră în realitate.
@@ -100,25 +101,30 @@ const Sectiune1 = () => {
           </div>
         </div>
       </div>
-      <div className="text-3xl text-center bg-zinc-900/40 bg-[url('/p3.jpeg')] transition-all ease-in-out duration-200 md:bg-center bg-cover bg-no-repeat h-[30vh] md:h-[50vh]  w-[100vw] flex items-center justify-center text-main font-bold ">
-        CONSULTANTA IN CONSTRUCTII
+      <div className="text-3xl text-center bg-zinc-900/40 bg-[url('/p3.jpeg')] transition-all ease-in-out duration-200 md:bg-center bg-cover bg-no-repeat h-[30vh] md:h-[50vh] w-[100vw] flex items-center justify-center text-main font-bold">
+        CONSULTANȚĂ ÎN CONSTRUCȚII
       </div>
       <div className="">
-        {" "}
-        <ul className=" text-md text-text py-5 bg-gray-100/50 text-center border-2">
-          <li> Servicii specializate de intocmire și verificare a ofertelor</li>
+        <ul className="text-md text-text py-5 bg-gray-100/50 text-center border-2">
           <li>
-            {" "}
-            Gestionați eficient situațiile de plată cu Dirigenția de șantier
+            Servicii  pentru întocmirea și verificarea ofertelor 
           </li>
-          <li> Experți în Project Management pentru proiecte reușite</li>
           <li>
-            Realizăm amenajări pentru case și vile, oferind expertiză tehnică în
-            construcții existente pentru consolidare, extindere, supraetajare,
-            alipiri la calcan și subzidiri
+            Management eficient al proceselor de plată 
+          </li>
+          <li>
+            Servicii de Management pentru Proiect de înaltă calitate care sa duca la
+            finalizarea reușită a proiectelor
+          </li>
+          <li>
+            Soluții cuprinzătoare pentru proprietăți rezidențiale și comerciale,
+            oferind expertiză tehnică în construcțiile existente pentru
+            consolidare, extindere, adăugarea de etaje suplimentare, anexări și
+            substructuri.
           </li>
         </ul>
       </div>
+
       <div className="">
         <div className=" bg-zinc-900/40 bg-[url('/p4.jpeg')] transition-all ease-in-out duration-200 md:bg-center bg-cover bg-no-repeat h-[30vh] md:h-[50vh]  w-[100vw] flex items-center justify-center text-sec tracking-wider font-bold  text-2xl">
           SERVICII DE PROIECTARE{" "}
