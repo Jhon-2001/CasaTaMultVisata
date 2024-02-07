@@ -19,7 +19,7 @@ const config = {
     },
     extend: {
       colors: {
-        sec:"#F58800",
+        sec:"#0066b2",
         main:"#051821",
         text:"#62615C",
         text2:"#d6bfb5",

@@ -19,10 +19,10 @@ const routes = [
     route: "/constructii",
     name: "Constructii",
   },
-  {
-    route: "/preturi",
-    name: "Preturi",
-  },
+  // {
+  //   route: "/preturi",
+  //   name: "Preturi",
+  // },
   {
     route: "/contact",
     name: "Contact",
@@ -87,7 +87,7 @@ const Navbar = () => {
           <div className="flex md:mx-2  text-main md:font-semibold text-md gap-x-2 md:text-md md:gap-x-10">
             {routes.map((item) => (
               <Link
-                className={cn("transition-all ease-in-out duration-200",
+                className={cn("transition-all whitespace-nowrap ease-in-out duration-200",
                   item.route == route ? "bg-sec/30 text-main " : "",
                   "md:px-2 px-1 mb-1 rounded-sm"
                 )}
