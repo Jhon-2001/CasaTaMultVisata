@@ -19,10 +19,14 @@ const routes = [
     route: "/constructii",
     name: "Constructii",
   },
-  // {
-  //   route: "/preturi",
-  //   name: "Preturi",
-  // },
+  {
+    route: "/preturi",
+    name: "Preturi",
+  },
+  {
+    route: "/proiectare",
+    name: "Proiectare",
+  },
   {
     route: "/contact",
     name: "Contact",
@@ -32,28 +36,28 @@ const routes = [
 const Navbar = () => {
   const route = usePathname();
   return (
-    <div className="font-poppins text-main ">
+    <div className="font-poppins  text-main ">
       <div
         className={cn(
           route == "/"
-            ? "bg-[url('/p2.jpg')] transition-all ease-in-out duration-200 md:bg-center bg-cover bg-no-repeat h-[30vh] md:h-[50vh]  w-[100vw]"
-            : "bg-[url('/p2.jpg')] transition-all ease-in-out duration-200  md:bg-center bg-cover bg-no-repeat h-[13vh] md:h-[15vh]  w-[100vw]"
+            ? "bg-[url('/1.3.jpg')] transition-all ease-in-out duration-200 md:bg-center bg-cover bg-no-repeat h-[30vh] md:h-[50vh]  w-[100vw]"
+            : "bg-[url('/p2.jpg')] transition-all ease-in-out duration-200  md:bg-center bg-cover bg-no-repeat h-[13vh] md:h-[16vh]  w-[100vw]"
         )}
       >
         <div className="flex flex-col h-full ">
           {" "}
-          <div className="h-20 w-full grow mx-auto md:px-10 px-2 pt-3 flex  justify-between">
-            <div className="flex md:flex-row  gap-2">
+          <div className="h-20 w-full  grow mx-auto md:px-10 px-2 pt-3 flex  justify-between">
+            <div className="flex md:flex-row gap-2">
               <Image
                 src="/logo1.jpg"
-                className="rounded-md md:h-16 md:w-32 h-12 w-24  "
+                className="rounded-md md:h-28 md:w-64 h-14 w-28  "
                 alt="logo"
                 height={80}
                 width={160}
               ></Image>
               <Image
                 src="/logo2.jpg"
-                className="rounded-md md:h-16 md:w-32 h-12 w-24  "
+                className="rounded-md md:h-28 md:w-64 h-14 w-28  "
                 alt="logo"
                 height={80}
                 width={160}
@@ -72,24 +76,30 @@ const Navbar = () => {
           <div
             className={cn(
               route == "/"
-                ? "text-center grow  md:-mt-12 -mt-6 text-gray-800 text-p uppercase text-xl md:text-3xl "
+                ? "text-center grow  md:-mt-12 -mt-6 text-sec text-p uppercase text-xl md:text-3xl "
                 : "hidden"
             )}
           >
-            Construieste cu
-            <span className="text-sec/85 font-semibold">
+            <div className="text-sec bg-white/50 flex items-center justify-center ">
+              Construieste cu{" "}
+              <span className="text-sec/85 ml-2 font-semibold">
+                {" "}
+                noi, <br />
+              </span>{" "}
+            </div>
+            <div className="text-sec bg-white/50 flex items-center justify-center ">
               {" "}
-              noi, <br />
-            </span>{" "}
-            construieste pentru{" "}
-            <span className="text-sec/85 font-semibold"> viitor!!!</span>
+              construieste pentru{" "}
+              <span className="text-sec/85 font-semibold ml-2"> viitor!!!</span>
+            </div>
           </div>
-          <div className="flex md:mx-2  text-main md:font-semibold text-md gap-x-2 md:text-md md:gap-x-10">
+          <div className="flex md:mx-2  text-black text-sm md:font-semibold md:text-md gap-x-1.5 md:text-md md:gap-x-10">
             {routes.map((item) => (
               <Link
-                className={cn("transition-all whitespace-nowrap ease-in-out duration-200",
-                  item.route == route ? "bg-sec/30 text-main " : "",
-                  "md:px-2 px-1 mb-1 rounded-sm"
+                className={cn(
+                  "transition-all bg-500/50 bg-white/80 whitespace-nowrap ease-in-out duration-200",
+                  item.route == route ? "bg-sec/50 text-whit " : "",
+                  "md:px-2 px-0.5 mb-1 rounded-sm"
                 )}
                 key={item.route}
                 href={item.route}

@@ -53,14 +53,7 @@ const Contact = () => {
                 0752013176
               </Link>{" "}
             </p>
-            <div className="text-xl my-2 text-main/80 font-semibold">
-              Fix/Fax
-            </div>
-            <p className="text-center text-main/70 font-semibold">
-              <Link href="tel:+44742756576" className="">
-                0264 558922
-              </Link>
-            </p>
+            
           </div>{" "}
           <div className="flex flex-col items-center pt-5">
             <div className="rounded-full bg-main/30 text-sec p-4">
@@ -74,7 +67,7 @@ const Contact = () => {
               <div className="flex">
                 {" "}
                 <span className=" text-sec mr-2">C.U.I: </span>{" "}
-                <p className=""> 4554245</p>
+                <p className=""> 44554245</p>
               </div>
              
               <div className="flex">

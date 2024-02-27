@@ -126,7 +126,7 @@ const Sectiune1 = () => {
       </div>
 
       <div className="">
-        <div className=" bg-zinc-900/40 bg-[url('/p4.jpeg')] transition-all ease-in-out duration-200 md:bg-center bg-cover bg-no-repeat h-[30vh] md:h-[50vh]  w-[100vw] flex items-center justify-center text-sec tracking-wider font-bold  text-2xl">
+        <div className=" bg-zinc-900/40 bg-[url('/1.2.jpg')] transition-all ease-in-out duration-200 md:bg-center bg-cover bg-no-repeat h-[30vh] md:h-[50vh]  w-[100vw] flex items-center justify-center text-sec tracking-wider font-bold  text-2xl">
           SERVICII DE PROIECTARE{" "}
         </div>{" "}
         <div className="">

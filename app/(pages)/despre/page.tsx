@@ -1,7 +1,7 @@
 import SD1 from "@/app/compoentes/SectiuneDespre1";
 import Image from "next/image";
 
-const photos = ["1.1.jpg","1.2.jpg","1.3.jpg","2.2.jpg","2.3.jpg","3.1.jpg","3.2.jpg","3.3.jpg","3.4.jpg",]
+const photos = ["2.2.jpg","2.3.jpg","3.1.jpg","3.2.jpg","3.3.jpg","3.4.jpg",]
 
 const Despre = () => {
     return ( <div className="">
